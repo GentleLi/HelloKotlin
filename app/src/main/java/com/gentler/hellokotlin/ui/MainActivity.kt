@@ -16,11 +16,13 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    public fun printList(){
+    private fun printList(){
         val items= listOf<String>("Java","kotlin","swift");
         for (item in items){
             Log.d("MainActivity",item)
         }
     }
+
+
 
 }
